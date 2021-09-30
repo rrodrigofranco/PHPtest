@@ -11,7 +11,7 @@
 
 ## 💻 Resumo
 
-Repositório do projeto do teste de PHP, o projeto tem objetivo de procurar um endereço através do CEP.
+Repositório do teste para a vaga de PHP, o projeto tem objetivo de procurar um endereço através do CEP.
 
 Nesse projeto usei HTML, CSS, PHP, Javascript, Bootstrap e mysql.
 
