@@ -1,9 +1,9 @@
 <?php
 	require_once("conexao.php");
 
-    $cep = $_POST['cep'];
+    	$cep = $_POST['cep'];
 	$verifica = "sim";
-	//Verificando o banco de dados
+	//Verificando se o cep está no banco de dados
 	$query = $pdo->query("SELECT * FROM endereco where cep = '$cep'");
 	$res = $query->fetchAll(PDO::FETCH_ASSOC);
 
