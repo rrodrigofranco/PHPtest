@@ -42,6 +42,8 @@
 			$gia = $xml->gia;
 			$ddd = $xml->ddd;
 			$siafi = $xml->siafi;
+			
+			//Inserindo o CEP com o respectivo endereço no banco de dados
 			$res2 = $pdo->prepare("INSERT INTO endereco SET cep = :cep, logradouro = :logradouro, complemento = :complemento, bairro = :bairro, localidade = :localidade, uf = :uf, ibge = :ibge, gia = :gia, ddd = :ddd, siafi = :siafi");	
 		
 			$res2->bindValue(":cep", $cep);
